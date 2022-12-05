@@ -10,7 +10,7 @@ const Profile = ({fullName, bio, profession,style,alert}) => {
     <div  className='profile' >
   <div className='name' >
     
-     <h1 style={style}><i>{fullName} </i></h1>
+     <h1 style={style}><i>{fullName} </i></h1> 
   </div>
   <div className='profession'>
      <h2 style={colorise}> { profession}</h2>
